@@ -1,4 +1,4 @@
-package hw2.Task2;
+пппппппппpackage hw2.Task2;
 
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class Main {
         }
         System.out.println();
 
-        // Удаление студента из учебной группы с помощью итератора
+        // Удаление предмета из листа с помощью итератора
         iterator = list.iterator();
         while (iterator.hasNext()) {
             Item student = iterator.next();
@@ -30,7 +30,7 @@ public class Main {
         }
 
         System.out.println();
-        // Проверка, что студент был удален
+        // Проверка, что предмет был удален
         System.out.println("Item with ID 45 deleted.");
         System.out.println();
         for (Item student : list.getItems()) {
