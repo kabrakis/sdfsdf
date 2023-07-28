@@ -33,7 +33,7 @@ public class Main {
         // Проверка, что предмет был удален
         System.out.println("Item with ID 45 deleted.");
         System.out.println();
-        for (Item student : list.getItems()) {
+        for (Item item : list.getItems()) {
             System.out.println(item);
         }
 
