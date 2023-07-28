@@ -1,4 +1,4 @@
-пппппппппpackage hw2.Task2;
+package hw2.Task2;
 
 
 import java.util.ArrayList;
