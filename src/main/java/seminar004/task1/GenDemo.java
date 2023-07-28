@@ -6,7 +6,6 @@ public class GenDemo {
         myOb.showType();
         int v = myOb.getOb();
         System.out.println("Значение" + v);
-
         String str = myOb.getOb2();
         System.out.println("Значение" + str);
     }
