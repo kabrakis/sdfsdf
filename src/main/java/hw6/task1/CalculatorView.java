@@ -1,6 +1,5 @@
 package hw6.task1;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 

@@ -10,7 +10,6 @@ public class CalculatorPresenter extends SumOperation {
 
         this.view = view;
         this.sqrOperation = sqrOperation;
-
     }
 
     public void onAddButtonClicked()  {
@@ -19,11 +18,14 @@ public class CalculatorPresenter extends SumOperation {
         double number1 = view.getUserInput();
         double number2 = view.getUserInput();
         double res = 0;
+        // Создаем объекты каждого нового класса
         SumOperation sum = new SumOperation();
         DivOperation div = new DivOperation();
         PowOperation pow = new PowOperation();
         MulOperation mul = new MulOperation();
         SubOperation sub = new SubOperation();
+
+        //создал отдельный объек для операции которая наследовалась от Калькулятормодель.
         CalculatorModel sqrt = new CalculatorModel();
         switch (ch) {
             case '+':
